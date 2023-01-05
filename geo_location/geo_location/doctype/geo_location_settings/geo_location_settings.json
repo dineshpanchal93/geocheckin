@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-03 22:49:07.312798",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "api_key",
+  "radius",
+  "address_1",
+  "latitude_1",
+  "longitude_1",
+  "address_2",
+  "latitude_2",
+  "longitude_2"
+ ],
+ "fields": [
+  {
+   "fieldname": "api_key",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "API Key",
+   "reqd": 1
+  },
+  {
+   "default": "200",
+   "description": "In meters",
+   "fieldname": "radius",
+   "fieldtype": "Data",
+   "label": "Radius"
+  },
+  {
+   "fieldname": "address_1",
+   "fieldtype": "Link",
+   "label": "Address_1",
+   "options": "Address"
+  },
+  {
+   "default": "24.6647587",
+   "fieldname": "latitude_1",
+   "fieldtype": "Data",
+   "label": "Latitude_1"
+  },
+  {
+   "default": "46.7317924",
+   "fieldname": "longitude_1",
+   "fieldtype": "Data",
+   "label": "Longitude_1"
+  },
+  {
+   "fieldname": "address_2",
+   "fieldtype": "Link",
+   "label": "Address_2",
+   "options": "Address"
+  },
+  {
+   "default": "24.6642993",
+   "fieldname": "latitude_2",
+   "fieldtype": "Data",
+   "label": "Latitude_2"
+  },
+  {
+   "default": "46.7218443",
+   "fieldname": "longitude_2",
+   "fieldtype": "Data",
+   "label": "Longitude_2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-01-05 14:06:11.682639",
+ "modified_by": "Administrator",
+ "module": "Geo Location",
+ "name": "Geo Location Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
